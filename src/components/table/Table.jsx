@@ -36,7 +36,6 @@ const Table = () => {
           .catch(error => {
             console.log(error);
           });
-          window.location.reload()
     }
 
     const getCategory = () => {
