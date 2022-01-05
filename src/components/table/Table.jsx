@@ -33,6 +33,7 @@ const Table = () => {
           })  
           .then(resp => {
             console.log(resp);
+            alert("Successfully reserved :)")
           })
           .catch(error => {
             console.log(error);
