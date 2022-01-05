@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 import './Table.css'
+import "../categories/Categories.css"
 import axios from 'axios'
 import dayjs from 'dayjs';
 import Calendar from 'react-calendar'
@@ -36,10 +37,6 @@ const Table = () => {
           .catch(error => {
             console.log(error);
           });
-    }
-
-    const getCategory = () => {
-        dataC.map(item => console.log(item))
     }
 
     const getDateData = () => {
