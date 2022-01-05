@@ -44,7 +44,7 @@ const Reserves = () => {
                             <tr key={item.id} className='reserve_block'>
                                 <td className='item'>{item.date}</td>
                                 <td className='item'>{item.reserve_period.starting_time}</td>
-                                <td className='item'>{item.reserve_period.starting_time}</td>
+                                <td className='item'>{item.reserve_period.finishing_time}</td>
                                 <td className='item'>{item.reason}</td>
                                 <td className='item'><button className='d_button' onClick={() => deleteReserveByID(item.id)}>Delete</button></td>
                             </tr>
