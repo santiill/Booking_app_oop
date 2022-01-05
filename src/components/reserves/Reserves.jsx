@@ -18,12 +18,6 @@ const Reserves = () => {
         window.location.reload()
     }
 
-    const deleteAllReserves = () => {
-        fetch(`https://alatoo-booking.herokuapp.com/my_reserves/`, {
-            method: "DELETE",
-          })
-    }
-
     return (
         <>
         <Header />
