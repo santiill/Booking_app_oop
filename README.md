@@ -1,4 +1,4 @@
-# Deployed project on heroku
+# Deployed project on Heroku
 https://book-app77.herokuapp.com/
 
 # Getting Started with Create React App
