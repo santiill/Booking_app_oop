@@ -1,0 +1,51 @@
+.table {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  min-width: 50rem;
+  max-width: 60rem;
+  grid-area: block-2;
+}
+.table thead th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background: #d8d8d8;
+  font-size: 14px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 50px;
+  border-radius: 4px;
+}
+.table tbody td {
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 10px 10px;
+  font-size: 14px;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.name {
+  background-color: #d8d8d8;
+}
+
+.reserved_place {
+  cursor: pointer;
+  background-color: rgb(230, 96, 96);
+}
+
+.free_place {
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+.choosen {
+  background-color: lightblue;
+}
+
+.dark_mode {
+  background-color: yellow;
+  cursor: pointer;
+}
